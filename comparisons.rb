@@ -90,15 +90,14 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
-
+p loves_to_play && loves_treats
 # Determine if the dog loves to play and loves the dog park
-
+p loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+p loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+p loves_to_play && is_a_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: Final line evaluated to an error due to the undefined variable of is_a_puppy since no value was ever assigned to this variable. The logical operator could not be applied to an undefined variable/ a variable that wasn't a Boolean data type leading to an error.
