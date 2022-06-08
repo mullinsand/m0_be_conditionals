@@ -23,25 +23,25 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-p "is number_teachers less than number_students?", number_teachers<number_students
+p "is number_teachers less than number_students?", number_teachers < number_students
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-p "is number_teachers equal to string_teachers?", number_teachers==string_teachers
+p "is number_teachers equal to string_teachers?", number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-p "is number_teachers not equal to number_students?", number_teachers!==number_students
+p "is number_teachers not equal to number_students?", number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-p "is number_students greater than or equal to 20?", number_students>=20
+p "is number_students greater than or equal to 20?", number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-p "is number_students greater than or equal to 21?", number_students>=21
+p "is number_students greater than or equal to 21?", number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-p "is number_students less than or equal to 20?", number_students<=20
+p "is number_students less than or equal to 20?", number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-p "is number_students less than or equal to 21?", number_students<=21
+p "is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -53,21 +53,22 @@ p "is number_students less than or equal to 21?", number_students<=21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: prints out result of conditional which is whether 4 is less than 9 which is true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Line 58 assigns an integer value of 3 to the variable books. Line 59 prints out the result of the conditional which is whether 4 is less than the value of the variable books. Since the variable books value is 3 and 4 is not less than 3, the output would be false
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Line 62 assigns an integer value of 6 to the variable friends and line 63 assigns an integer value of 2 to siblings. Line 64 prints out the result of conditional which is whether the variable value of friends are greater than variable value of siblings. Since the variable values of friends and siblings are 6 and 2, respectively, and 6 is greater than 2, the output would be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Line 67 assigns an integer value of 9 to the variable attendees and line 68 assigns an integer value of 8 to meals. Line 69 prints out the result of conditional which is whether the variable value of attendees are not equal to the variable value of meals. Since the variable values of attendees and meals are 9 and 8, respectively, and 9 is not equal to 8, the output would be true.
+
 
 
 #-------------------
