@@ -70,7 +70,6 @@ puts attendees != meals
 # YOU DO: Line 67 assigns an integer value of 9 to the variable attendees and line 68 assigns an integer value of 8 to meals. Line 69 prints out the result of conditional which is whether the variable value of attendees are not equal to the variable value of meals. Since the variable values of attendees and meals are 9 and 8, respectively, and 9 is not equal to 8, the output would be true.
 
 
-
 #-------------------
 # PART 3: Logical Operators
 #-------------------
